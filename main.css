@@ -11,6 +11,9 @@
   border-bottom: 4px solid white;
   transition: 0.5s;
 }
+.navbar li a.home {
+  border-bottom: 4px solid purple;
+}
 .navbarContainer .navbar li a:hover {
   border-bottom: 4px solid purple;
 }
@@ -19,4 +22,14 @@
 }
 .navbar li {
   float: left;
+}
+.leftSide {
+  float: left;
+  width: 30%;
+  height: 300px;
+}
+.rightSide {
+  float: left;
+  width: 70%;
+  height: 300px;
 }
